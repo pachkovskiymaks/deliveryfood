@@ -821,3 +821,16 @@ COLLECTION */
         margin-bottom: var(--mb-6);
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    .featured__container{
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cart{
+        width: 260px;
+    }
+}
